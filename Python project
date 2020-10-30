@@ -1,0 +1,9 @@
+condition=True
+While(condition) 
+student_info=input("Enter the student information") 
+print(student_info) 
+condition_check=input("Enter(yes/no) if you want to enter more") 
+if condition_check=="yes"
+    condition=True
+elif condition_check=="no"
+    condition=False
